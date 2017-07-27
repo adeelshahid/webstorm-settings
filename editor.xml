@@ -25,4 +25,7 @@
     </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
   </component>
+  <component name="XmlEditorOptions">
+    <option name="insertQuotesForAttributeValue" value="false" />
+  </component>
 </application>
