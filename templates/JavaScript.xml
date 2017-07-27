@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="log" value="console.group('$DESCRIPTION$')&#10;console.log($VARIABLE$)&#10;console.groupEnd(')$END$" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="console.group('$DESCRIPTION$')&#10;console.log($VARIABLE$)&#10;console.groupEnd('$DESCRIPTION$')$END$" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
