@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="$log" value="$.log(&quot;======================&quot;);&#10;$.log($1$);&#10;$.log(&quot;======================&quot;);$END$" description="Conspicuous logging" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
