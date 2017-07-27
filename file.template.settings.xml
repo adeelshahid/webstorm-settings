@@ -1,0 +1,9 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Action Types.js" reformat="false" live-template-enabled="true" />
+      <template name="Actions.js" reformat="false" live-template-enabled="true" />
+      <template name="Reducer.js" reformat="false" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>
