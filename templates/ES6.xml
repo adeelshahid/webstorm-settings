@@ -1,5 +1,5 @@
 <templateSet group="ES6">
-  <template name="imp" value="import {$2$} from '$1$$END$" description="import ... from '...'" toReformat="false" toShortenFQNames="true">
+  <template name="imp" value="import {$2$} from '$1$'$END$" description="import ... from '...'" toReformat="false" toShortenFQNames="true">
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
