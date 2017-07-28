@@ -1,7 +1,7 @@
 <templateSet group="ES6">
-  <template name="imp" value="import {$2$} from '$1$'$END$" description="import ... from '...'" toReformat="false" toShortenFQNames="true">
-    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="imp" value="import {$Function_Name$} from '$LIBRARY_PATH$'$END$" description="import ... from '...'" toReformat="false" toShortenFQNames="true">
+    <variable name="LIBRARY_PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Function_Name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
