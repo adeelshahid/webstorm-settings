@@ -43,7 +43,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ec" value="export const $CONSTANT_NAME$ = '$CONSTANT_NAME$'&#10;$END$" toReformat="false" toShortenFQNames="true">
+  <template name="ec" value="export const $CONSTANT_NAME$ = '$CONSTANT_NAME$'&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CONSTANT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
